@@ -13,15 +13,15 @@ public class App {
         double theelepelVanilleEssence = 2;
         double gramPoederSuiker = 75;
 
-        int aantalKoekjes = 10;
+        int aantalKoekjes = 20;
 
-        Alice alice = new Alice();
+        Koekenbakker alice = new Koekenbakker();
 
-        alice.NeemIngredienten(gramPureChocoladedruppels, gramZachteRoomboter, gramBloem, zakjeBakpoeder, theelepelZout, groteEieren, gramSuiker, theelepelVanilleEssence, gramPoederSuiker);
+        alice.SetIngredienten(gramPureChocoladedruppels, gramZachteRoomboter, gramBloem, zakjeBakpoeder, theelepelZout, groteEieren, gramSuiker, theelepelVanilleEssence, gramPoederSuiker);
 
-        List<ChocoladeBrownieKoekje> koekjes = alice.MaakKoekjes(aantalKoekjes);
+        List<ChocoladeBrownieKoekje> koektrommel = alice.MaakKoekjes(aantalKoekjes);
 
-        PrintKoekjes(koekjes);
+        PrintKoekjes(koektrommel);
     }
 
     private static void PrintKoekjes(List<ChocoladeBrownieKoekje> koekjes) {

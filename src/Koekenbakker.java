@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alice {
+public class Koekenbakker {
     double gramPureChocoladedruppels;
     double gramZachteRoomboter;
     double gramBloem;
@@ -12,7 +12,7 @@ public class Alice {
     double theelepelVanilleEssence;
     double gramPoederSuiker;
 
-    public void NeemIngredienten(double gramPureChocoladedruppels, double gramZachteRoomboter, double gramBloem, double zakjeBakpoeder, double theelepelZout, double groteEieren, double gramSuiker, double theelepelVanilleEssence, double gramPoedersuiker) {
+    public void SetIngredienten(double gramPureChocoladedruppels, double gramZachteRoomboter, double gramBloem, double zakjeBakpoeder, double theelepelZout, double groteEieren, double gramSuiker, double theelepelVanilleEssence, double gramPoedersuiker) {
         this.gramPureChocoladedruppels = gramPureChocoladedruppels;
         this.gramZachteRoomboter = gramZachteRoomboter;
         this.gramBloem = gramBloem;
